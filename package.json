@@ -19,9 +19,6 @@
     "mobile:android": "yarn workspace AnimationExample run android",
     "mobile:start": "yarn workspace AnimationExample run start"
   },
-  "lint-staged": {
-    "*": "commitlog . > CHANGELOG.md"
-  },
   "author": "",
   "license": "MIT",
   "description": "",
@@ -30,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "commitlog . > CHANGELOG.md && git add CHANGELOG.md || true"
     }
   },
   "devDependencies": {
