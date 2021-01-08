@@ -16,11 +16,12 @@ export default function AnimatedBox() {
 
   const spring = () => {
     const val = random(0, Dimensions.get('window').width - 95);
-    Animated.spring(offset, {
+    animation = Animated.spring(offset, {
       toValue: val,
       friction,
       useNativeDriver: true,
-    }).start();
+    }).start()
+    
   };
 
   return (

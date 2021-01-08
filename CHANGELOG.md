@@ -2,6 +2,7 @@
 
 
 ## Docs  
+ddbbcdd534dd2bd0e3314bd380958c9ca49e8c7a - docs:  numbers based on tests
 6b2cd190a023379c16e2957e170d804934a32243 - docs: readme update
 5de9f5c69c78c6218199d70da38ceb54f507aa45 - docs: changelog generation on push
 
@@ -9,6 +10,10 @@
 ## Chores  
 845f3f7713ee7e5ed2c55ef7938fb73ff9a171e4 - chore: move command to husky
 767e5c93dad5b870ea8874625d3eb6da78bd2f7f - chore: package name change
+
+
+## Tests  
+7064bbd8936badff9413f09ddfb2d8dc3422954b - test: husky
 
 
 ## Other Changes  
