@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "commitlog . > CHANGELOG.md && git add CHANGELOG.md || true"
+      "pre-commit": "commitlog . > CHANGELOG.md && git add CHANGELOG.md"
     }
   },
   "devDependencies": {
