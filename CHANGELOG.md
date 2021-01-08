@@ -7,10 +7,11 @@
 
 
 ## Chores  
-ab995350442a5a67a7735932da87855a17843f89 - chore: move command to husky
+845f3f7713ee7e5ed2c55ef7938fb73ff9a171e4 - chore: move command to husky
 767e5c93dad5b870ea8874625d3eb6da78bd2f7f - chore: package name change
 
 
 ## Other Changes  
+8eb0894893a2d4ded3cee5621e11f3a3efc28b4e - add test results for animated box
 898260f358341ba9b086bc79cfcb3f5ddb782596 - initial commit
 
