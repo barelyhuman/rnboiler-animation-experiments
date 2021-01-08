@@ -19,10 +19,22 @@
     "mobile:android": "yarn workspace AnimationExample run android",
     "mobile:start": "yarn workspace AnimationExample run start"
   },
+  "lint-staged": {
+    "*": "commitlog . > CHANGELOG.md"
+  },
   "author": "",
   "license": "MIT",
   "description": "",
   "dependencies": {
     "styled-components": "^5.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": ">=4",
+    "lint-staged": ">=10"
   }
 }
